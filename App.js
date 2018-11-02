@@ -5,7 +5,7 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import reducer from './reducers'
 import History from './components/History'
-import { TabNavigator, StackNavigator } from 'react-navigation'
+import { createBottomTabNavigator, StackNavigator } from 'react-navigation'
 import { purple, white } from './utils/colors'
 import { FontAwesome, Ionicons } from '@expo/vector-icons'
 import { Constants } from 'expo'
@@ -21,7 +21,7 @@ function UdaciStatusBar ({backgroundColor, ...props}) {
     )
 }
 
-const Tabs = TabNavigator({
+const Tabs = createBottomTabNavigator({
     History: {
         screen: History,
         navigationOptions: {
