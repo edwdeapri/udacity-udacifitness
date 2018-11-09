@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "udacifitness",
-    "description": "This project is really great.",
+    "name": "UdaciFitness",
+    "description": "UdaciFitness is a fitness application built with React Native for Udacity's React Nanodegree Program - React Native.",
     "slug": "udacifitness",
     "privacy": "public",
     "sdkVersion": "30.0.0",
